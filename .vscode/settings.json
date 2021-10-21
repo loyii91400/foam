@@ -13,16 +13,28 @@
   "files.watcherExclude": {
     "**/node_modules": true
   },
-  "foam.edit.linkReferenceDefinitions": "off",
+  "foam.edit.linkReferenceDefinitions": "withoutExtensions",
   "foam.openDailyNote.directory": "journal",
   "foam.openDailyNote.titleFormat": "fullDate",
   "git.enableSmartCommit": true,
   "git.postCommitCommand": "sync",
   "markdown.preview.breaks": true,
   "pasteImage.path": "${projectRoot}/attachments",
-  "pasteImage.showFilePathConfirmInputBox": true,
+  "pasteImage.showFilePathConfirmInputBox": false,
   "prettier.singleQuote": false,
   "spellright.notificationClass": "warning",
   "vscodeMarkdownNotes.noteCompletionConvention": "noExtension",
   "vscodeMarkdownNotes.slugifyMethod": "github-slugger",
+  "foam.graph.style": {
+    "background": "#202020",
+    "fontSize": 12,
+    "lineColor": "#277da1",
+    "lineWidth": 0.2,
+    "particleWidth": 1.0,
+    "highlightedForeground": "#f9c74f",
+    "node": {
+        "note": "#277da1",
+        "placeholder": "#545454",
+    }
+}
 }
